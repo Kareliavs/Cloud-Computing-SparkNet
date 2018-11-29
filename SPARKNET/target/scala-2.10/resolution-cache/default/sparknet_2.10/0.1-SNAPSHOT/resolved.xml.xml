@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="default"
+		module="sparknet_2.10"
+		revision="0.1-SNAPSHOT"
+		status="integration"
+		publication="20181122191138"
+	>
+		<description>
+		sparknet
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="sparknet_2.10" type="pom" ext="pom" conf="pom"/>
+		<artifact name="sparknet_2.10" type="jar" ext="jar" conf="compile"/>
+		<artifact name="sparknet_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="sparknet_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.6" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.bytedeco" name="javacpp" rev="1.2-SPARKNETCPU" conf="compile->default(compile)"/>
+		<dependency org="org.bytedeco.javacpp-presets" name="caffe" rev="master-1.2-SPARKNETCPU" conf="compile->default(compile)">
+			<artifact name="caffe" type="jar" ext="jar" conf="compile"/>
+			<artifact name="caffe" type="jar" ext="jar" conf="compile" e:classifier="linux-x86_64"/>
+		</dependency>
+		<dependency org="org.bytedeco.javacpp-presets" name="opencv" rev="3.1.0-1.2-SPARKNETCPU" conf="compile->default(compile)">
+			<artifact name="opencv" type="jar" ext="jar" conf="compile"/>
+			<artifact name="opencv" type="jar" ext="jar" conf="compile" e:classifier="linux-x86_64"/>
+		</dependency>
+		<dependency org="org.bytedeco.javacpp-presets" name="tensorflow" rev="master-1.2-SPARKNETCPU" conf="compile->default(compile)">
+			<artifact name="tensorflow" type="jar" ext="jar" conf="compile"/>
+			<artifact name="tensorflow" type="jar" ext="jar" conf="compile" e:classifier="linux-x86_64"/>
+		</dependency>
+		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-sql_2.10" rev="1.4.1" conf="provided->default(compile)"/>
+		<dependency org="com.databricks" name="spark-csv_2.11" rev="1.3.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-core_2.10" rev="1.4.1" conf="provided->default(compile)"/>
+		<dependency org="net.java.dev.jna" name="jna" rev="4.2.1" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.0" conf="test->default(compile)"/>
+		<dependency org="com.amazonaws" name="aws-java-sdk" rev="1.10.21" conf="compile->default(compile)"/>
+		<dependency org="net.coobird" name="thumbnailator" rev="0.4.2" conf="compile->default(compile)"/>
+		<dependency org="com.twelvemonkeys.imageio" name="imageio" rev="3.1.2" conf="compile->default(compile)"/>
+		<dependency org="com.twelvemonkeys.imageio" name="imageio-jpeg" rev="3.1.2" conf="compile->default(compile)"/>
+		<dependency org="com.twelvemonkeys.imageio" name="imageio-metadata" rev="3.1.2" conf="compile->default(compile)"/>
+		<dependency org="com.twelvemonkeys.imageio" name="imageio-core" rev="3.1.2" conf="compile->default(compile)"/>
+		<dependency org="com.twelvemonkeys.common" name="common-lang" rev="3.1.2" conf="compile->default(compile)"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-databind" matcher="exact" rev="2.4.4"/>
+	</dependencies>
+</ivy-module>

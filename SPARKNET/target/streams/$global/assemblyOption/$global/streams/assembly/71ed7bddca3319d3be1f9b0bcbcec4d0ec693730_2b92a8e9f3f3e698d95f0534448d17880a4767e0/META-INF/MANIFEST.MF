@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: JavaCPP
+Implementation-Version: 1.2-SPARKNETCPU
+Archiver-Version: Plexus Archiver
+Built-By: ubuntu
+Specification-Vendor: Bytedeco
+Specification-Title: JavaCPP
+Class-Path: .
+Main-Class: org.bytedeco.javacpp.tools.Builder
+Implementation-Vendor: Bytedeco
+Name: org/bytedeco/javacpp/
+Created-By: Apache Maven 3.0.5
+Build-Jdk: 1.8.0_72-internal
+Specification-Version: 1.2-SPARKNETCPU
+

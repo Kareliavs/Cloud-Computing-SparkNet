@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="sparknet_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20181122191138"/>
+	<dependencies>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-jpeg">
+			<revision name="3.1.2" status="release" pubdate="20150814053145" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="76">
+				<metadata-artifact status="no" details="" size="6248" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.imageio/imageio-jpeg/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.1.2/imageio-jpeg-3.1.2.pom"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-jpeg" type="jar" ext="jar" status="no" details="" size="59004" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.imageio/imageio-jpeg/jars/imageio-jpeg-3.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.1.2/imageio-jpeg-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-metadata">
+			<revision name="3.1.2" status="release" pubdate="20150814052914" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="77">
+				<metadata-artifact status="no" details="" size="6050" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.imageio/imageio-metadata/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.1.2/imageio-metadata-3.1.2.pom"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-metadata" type="jar" ext="jar" status="no" details="" size="67555" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.imageio/imageio-metadata/jars/imageio-metadata-3.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.1.2/imageio-metadata-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-core">
+			<revision name="3.1.2" status="release" pubdate="20150814052853" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="78">
+				<metadata-artifact status="no" details="" size="6001" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.imageio/imageio-core/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.1.2/imageio-core-3.1.2.pom"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-core" type="jar" ext="jar" status="no" details="" size="58041" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.imageio/imageio-core/jars/imageio-core-3.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.1.2/imageio-core-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio">
+			<revision name="3.1.2" status="release" pubdate="20150814052839" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="72">
+				<metadata-artifact status="no" details="" size="5207" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.imageio/imageio/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio/3.1.2/imageio-3.1.2.pom"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.common" name="common-image">
+			<revision name="3.1.2" status="release" pubdate="20150814052756" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<metadata-artifact status="no" details="" size="4520" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.common/common-image/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.1.2/common-image-3.1.2.pom"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-metadata" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-core" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<artifacts>
+					<artifact name="common-image" type="jar" ext="jar" status="no" details="" size="82518" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.common/common-image/jars/common-image-3.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.1.2/common-image-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.common" name="common-io">
+			<revision name="3.1.2" status="release" pubdate="20150814052736" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<metadata-artifact status="no" details="" size="4392" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.common/common-io/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.1.2/common-io-3.1.2.pom"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-metadata" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-core" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.common" name="common-image" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<artifacts>
+					<artifact name="common-io" type="jar" ext="jar" status="no" details="" size="88582" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.common/common-io/jars/common-io-3.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.1.2/common-io-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.common" name="common-lang">
+			<revision name="3.1.2" status="release" pubdate="20150814052713" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="73">
+				<metadata-artifact status="no" details="" size="4101" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.common/common-lang/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-lang/3.1.2/common-lang-3.1.2.pom"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-metadata" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-core" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<artifacts>
+					<artifact name="common-lang" type="jar" ext="jar" status="no" details="" size="117274" time="0" location="/home/karelia/.ivy2/cache/com.twelvemonkeys.common/common-lang/jars/common-lang-3.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-lang/3.1.2/common-lang-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.coobird" name="thumbnailator">
+			<revision name="0.4.2" status="release" pubdate="20120506052647" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/thumbnailator" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="71">
+				<license name="The MIT License (MIT)" url="http://www.opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="2930" time="0" location="/home/karelia/.ivy2/cache/net.coobird/thumbnailator/ivy-0.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/coobird/thumbnailator/0.4.2/thumbnailator-0.4.2.pom"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="thumbnailator" type="jar" ext="jar" status="no" details="" size="91609" time="0" location="/home/karelia/.ivy2/cache/net.coobird/thumbnailator/jars/thumbnailator-0.4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/coobird/thumbnailator/0.4.2/thumbnailator-0.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.4.4" status="release" pubdate="20141124212902" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8452" time="0" location="/home/karelia/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-core" conf="compile, runtime" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.5.3" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="1076926" time="0" location="/home/karelia/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.4.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.4.4" status="release" pubdate="20141124211728" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6671" time="0" location="/home/karelia/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.pom"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="2.4.4"/>
+				<artifacts>
+					<artifact name="jackson-core" type="bundle" ext="jar" status="no" details="" size="225302" time="0" location="/home/karelia/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.4.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.4.0" status="release" pubdate="20140529114729" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6225" time="0" location="/home/karelia/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.4.0/jackson-annotations-2.4.0.pom"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.4"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="38605" time="0" location="/home/karelia/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.4.0/jackson-annotations-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk">
+			<revision name="1.10.21" status="release" pubdate="20150929221121" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="11749" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.10.21/aws-java-sdk-1.10.21.pom"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="aws-java-sdk" type="jar" ext="jar" status="no" details="" size="2714" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk/jars/aws-java-sdk-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.10.21/aws-java-sdk-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-devicefarm">
+			<revision name="1.10.21" status="release" pubdate="20150929220323" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3585" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-devicefarm/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-devicefarm/1.10.21/aws-java-sdk-devicefarm-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-devicefarm" type="jar" ext="jar" status="no" details="" size="456421" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-devicefarm/jars/aws-java-sdk-devicefarm-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-devicefarm/1.10.21/aws-java-sdk-devicefarm-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-codecommit">
+			<revision name="1.10.21" status="release" pubdate="20150929221143" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3583" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-codecommit/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-codecommit/1.10.21/aws-java-sdk-codecommit-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-codecommit" type="jar" ext="jar" status="no" details="" size="142821" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-codecommit/jars/aws-java-sdk-codecommit-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-codecommit/1.10.21/aws-java-sdk-codecommit-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-efs">
+			<revision name="1.10.21" status="release" pubdate="20150929222122" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3593" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-efs/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-efs/1.10.21/aws-java-sdk-efs-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-efs" type="jar" ext="jar" status="no" details="" size="172718" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-efs/jars/aws-java-sdk-efs-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-efs/1.10.21/aws-java-sdk-efs-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-directory">
+			<revision name="1.10.21" status="release" pubdate="20150929220909" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3594" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-directory/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-directory/1.10.21/aws-java-sdk-directory-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-directory" type="jar" ext="jar" status="no" details="" size="230522" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-directory/jars/aws-java-sdk-directory-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-directory/1.10.21/aws-java-sdk-directory-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-machinelearning">
+			<revision name="1.10.21" status="release" pubdate="20150929221131" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3618" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-machinelearning/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-machinelearning/1.10.21/aws-java-sdk-machinelearning-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-machinelearning" type="jar" ext="jar" status="no" details="" size="495005" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-machinelearning/jars/aws-java-sdk-machinelearning-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-machinelearning/1.10.21/aws-java-sdk-machinelearning-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-workspaces">
+			<revision name="1.10.21" status="release" pubdate="20150929220831" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3597" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-workspaces/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-workspaces/1.10.21/aws-java-sdk-workspaces-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-workspaces" type="jar" ext="jar" status="no" details="" size="176647" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-workspaces/jars/aws-java-sdk-workspaces-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-workspaces/1.10.21/aws-java-sdk-workspaces-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-ssm">
+			<revision name="1.10.21" status="release" pubdate="20150929221744" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3612" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-ssm/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ssm/1.10.21/aws-java-sdk-ssm-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-ssm" type="jar" ext="jar" status="no" details="" size="186226" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-ssm/jars/aws-java-sdk-ssm-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ssm/1.10.21/aws-java-sdk-ssm-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-cloudhsm">
+			<revision name="1.10.21" status="release" pubdate="20150929220320" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3580" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudhsm/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudhsm/1.10.21/aws-java-sdk-cloudhsm-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-cloudhsm" type="jar" ext="jar" status="no" details="" size="194342" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudhsm/jars/aws-java-sdk-cloudhsm-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudhsm/1.10.21/aws-java-sdk-cloudhsm-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-ecs">
+			<revision name="1.10.21" status="release" pubdate="20150929221146" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3598" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-ecs/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ecs/1.10.21/aws-java-sdk-ecs-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-ecs" type="jar" ext="jar" status="no" details="" size="378830" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-ecs/jars/aws-java-sdk-ecs-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ecs/1.10.21/aws-java-sdk-ecs-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-lambda">
+			<revision name="1.10.21" status="release" pubdate="20150929222223" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3575" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-lambda/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-lambda/1.10.21/aws-java-sdk-lambda-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-lambda" type="jar" ext="jar" status="no" details="" size="229699" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-lambda/jars/aws-java-sdk-lambda-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-lambda/1.10.21/aws-java-sdk-lambda-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-config">
+			<revision name="1.10.21" status="release" pubdate="20150929221031" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3575" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-config/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-config/1.10.21/aws-java-sdk-config-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-config" type="jar" ext="jar" status="no" details="" size="187760" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-config/jars/aws-java-sdk-config-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-config/1.10.21/aws-java-sdk-config-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-codepipeline">
+			<revision name="1.10.21" status="release" pubdate="20150929222008" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3591" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-codepipeline/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-codepipeline/1.10.21/aws-java-sdk-codepipeline-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-codepipeline" type="jar" ext="jar" status="no" details="" size="478018" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-codepipeline/jars/aws-java-sdk-codepipeline-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-codepipeline/1.10.21/aws-java-sdk-codepipeline-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-codedeploy">
+			<revision name="1.10.21" status="release" pubdate="20150929220245" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3591" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-codedeploy/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-codedeploy/1.10.21/aws-java-sdk-codedeploy-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-codedeploy" type="jar" ext="jar" status="no" details="" size="523276" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-codedeploy/jars/aws-java-sdk-codedeploy-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-codedeploy/1.10.21/aws-java-sdk-codedeploy-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-swf-libraries">
+			<revision name="1.10.21" status="release" pubdate="20150929222059" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="4558" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-swf-libraries/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-swf-libraries/1.10.21/aws-java-sdk-swf-libraries-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-swf-libraries" type="jar" ext="jar" status="no" details="" size="531310" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-swf-libraries/jars/aws-java-sdk-swf-libraries-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-swf-libraries/1.10.21/aws-java-sdk-swf-libraries-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-cloudwatchmetrics">
+			<revision name="1.10.21" status="release" pubdate="20150929220233" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3906" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudwatchmetrics/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudwatchmetrics/1.10.21/aws-java-sdk-cloudwatchmetrics-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-cloudwatchmetrics" type="jar" ext="jar" status="no" details="" size="46514" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudwatchmetrics/jars/aws-java-sdk-cloudwatchmetrics-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudwatchmetrics/1.10.21/aws-java-sdk-cloudwatchmetrics-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-cloudsearch">
+			<revision name="1.10.21" status="release" pubdate="20150929215949" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3601" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudsearch/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudsearch/1.10.21/aws-java-sdk-cloudsearch-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-cloudsearch" type="jar" ext="jar" status="no" details="" size="659721" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudsearch/jars/aws-java-sdk-cloudsearch-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudsearch/1.10.21/aws-java-sdk-cloudsearch-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-autoscaling">
+			<revision name="1.10.21" status="release" pubdate="20150929221531" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3589" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-autoscaling/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-autoscaling/1.10.21/aws-java-sdk-autoscaling-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-autoscaling" type="jar" ext="jar" status="no" details="" size="479932" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-autoscaling/jars/aws-java-sdk-autoscaling-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-autoscaling/1.10.21/aws-java-sdk-autoscaling-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-ses">
+			<revision name="1.10.21" status="release" pubdate="20150929221125" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3702" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-ses/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ses/1.10.21/aws-java-sdk-ses-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-ses" type="jar" ext="jar" status="no" details="" size="426348" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-ses/jars/aws-java-sdk-ses-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ses/1.10.21/aws-java-sdk-ses-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-opsworks">
+			<revision name="1.10.21" status="release" pubdate="20150929222129" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3583" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-opsworks/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-opsworks/1.10.21/aws-java-sdk-opsworks-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-opsworks" type="jar" ext="jar" status="no" details="" size="762404" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-opsworks/jars/aws-java-sdk-opsworks-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-opsworks/1.10.21/aws-java-sdk-opsworks-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-kinesis">
+			<revision name="1.10.21" status="release" pubdate="20150929221946" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3585" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-kinesis/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kinesis/1.10.21/aws-java-sdk-kinesis-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-kinesis" type="jar" ext="jar" status="no" details="" size="149215" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-kinesis/jars/aws-java-sdk-kinesis-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kinesis/1.10.21/aws-java-sdk-kinesis-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-cloudfront">
+			<revision name="1.10.21" status="release" pubdate="20150929222306" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3597" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudfront/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudfront/1.10.21/aws-java-sdk-cloudfront-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-cloudfront" type="jar" ext="jar" status="no" details="" size="768845" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudfront/jars/aws-java-sdk-cloudfront-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudfront/1.10.21/aws-java-sdk-cloudfront-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-cloudformation">
+			<revision name="1.10.21" status="release" pubdate="20150929221327" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3607" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudformation/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudformation/1.10.21/aws-java-sdk-cloudformation-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-cloudformation" type="jar" ext="jar" status="no" details="" size="220707" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudformation/jars/aws-java-sdk-cloudformation-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudformation/1.10.21/aws-java-sdk-cloudformation-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-directconnect">
+			<revision name="1.10.21" status="release" pubdate="20150929221538" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3605" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-directconnect/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-directconnect/1.10.21/aws-java-sdk-directconnect-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-directconnect" type="jar" ext="jar" status="no" details="" size="240721" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-directconnect/jars/aws-java-sdk-directconnect-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-directconnect/1.10.21/aws-java-sdk-directconnect-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-cognitosync">
+			<revision name="1.10.21" status="release" pubdate="20150929221752" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3603" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cognitosync/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cognitosync/1.10.21/aws-java-sdk-cognitosync-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-cognitosync" type="jar" ext="jar" status="no" details="" size="232215" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cognitosync/jars/aws-java-sdk-cognitosync-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cognitosync/1.10.21/aws-java-sdk-cognitosync-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-cognitoidentity">
+			<revision name="1.10.21" status="release" pubdate="20150929220449" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3619" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cognitoidentity/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cognitoidentity/1.10.21/aws-java-sdk-cognitoidentity-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-cognitoidentity" type="jar" ext="jar" status="no" details="" size="242502" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cognitoidentity/jars/aws-java-sdk-cognitoidentity-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cognitoidentity/1.10.21/aws-java-sdk-cognitoidentity-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-logs">
+			<revision name="1.10.21" status="release" pubdate="20150929220736" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3595" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-logs/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-logs/1.10.21/aws-java-sdk-logs-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-logs" type="jar" ext="jar" status="no" details="" size="335907" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-logs/jars/aws-java-sdk-logs-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-logs/1.10.21/aws-java-sdk-logs-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-cloudwatch">
+			<revision name="1.10.21" status="release" pubdate="20150929221232" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3597" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudwatch/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudwatch/1.10.21/aws-java-sdk-cloudwatch-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-cloudwatchmetrics" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-cloudwatch" type="jar" ext="jar" status="no" details="" size="147310" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudwatch/jars/aws-java-sdk-cloudwatch-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudwatch/1.10.21/aws-java-sdk-cloudwatch-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-cloudtrail">
+			<revision name="1.10.21" status="release" pubdate="20150929221213" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3591" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudtrail/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudtrail/1.10.21/aws-java-sdk-cloudtrail-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-cloudtrail" type="jar" ext="jar" status="no" details="" size="124841" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-cloudtrail/jars/aws-java-sdk-cloudtrail-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cloudtrail/1.10.21/aws-java-sdk-cloudtrail-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-dynamodb">
+			<revision name="1.10.21" status="release" pubdate="20150929221040" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3957" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-dynamodb/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-dynamodb/1.10.21/aws-java-sdk-dynamodb-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-cloudwatchmetrics" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-dynamodb" type="jar" ext="jar" status="no" details="" size="1147709" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-dynamodb/jars/aws-java-sdk-dynamodb-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-dynamodb/1.10.21/aws-java-sdk-dynamodb-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-ec2">
+			<revision name="1.10.21" status="release" pubdate="20150929221818" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3569" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-ec2/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.10.21/aws-java-sdk-ec2-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-ec2" type="jar" ext="jar" status="no" details="" size="2179978" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-ec2/jars/aws-java-sdk-ec2-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.10.21/aws-java-sdk-ec2-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-elastictranscoder">
+			<revision name="1.10.21" status="release" pubdate="20150929215916" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3627" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-elastictranscoder/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-elastictranscoder/1.10.21/aws-java-sdk-elastictranscoder-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-elastictranscoder" type="jar" ext="jar" status="no" details="" size="328628" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-elastictranscoder/jars/aws-java-sdk-elastictranscoder-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-elastictranscoder/1.10.21/aws-java-sdk-elastictranscoder-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-elasticache">
+			<revision name="1.10.21" status="release" pubdate="20150929221308" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3601" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-elasticache/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-elasticache/1.10.21/aws-java-sdk-elasticache-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-elasticache" type="jar" ext="jar" status="no" details="" size="474840" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-elasticache/jars/aws-java-sdk-elasticache-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-elasticache/1.10.21/aws-java-sdk-elasticache-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-emr">
+			<revision name="1.10.21" status="release" pubdate="20150929222203" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3583" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-emr/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-emr/1.10.21/aws-java-sdk-emr-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-emr" type="jar" ext="jar" status="no" details="" size="381395" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-emr/jars/aws-java-sdk-emr-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-emr/1.10.21/aws-java-sdk-emr-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-elasticloadbalancing">
+			<revision name="1.10.21" status="release" pubdate="20150929221321" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3627" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-elasticloadbalancing/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-elasticloadbalancing/1.10.21/aws-java-sdk-elasticloadbalancing-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-elasticloadbalancing" type="jar" ext="jar" status="no" details="" size="367980" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-elasticloadbalancing/jars/aws-java-sdk-elasticloadbalancing-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-elasticloadbalancing/1.10.21/aws-java-sdk-elasticloadbalancing-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-datapipeline">
+			<revision name="1.10.21" status="release" pubdate="20150929220605" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3601" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-datapipeline/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-datapipeline/1.10.21/aws-java-sdk-datapipeline-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-datapipeline" type="jar" ext="jar" status="no" details="" size="242763" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-datapipeline/jars/aws-java-sdk-datapipeline-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-datapipeline/1.10.21/aws-java-sdk-datapipeline-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-iam">
+			<revision name="1.10.21" status="release" pubdate="20150929220843" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3590" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-iam/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-iam/1.10.21/aws-java-sdk-iam-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-iam" type="jar" ext="jar" status="no" details="" size="984003" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-iam/jars/aws-java-sdk-iam-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-iam/1.10.21/aws-java-sdk-iam-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-glacier">
+			<revision name="1.10.21" status="release" pubdate="20150929222200" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="4034" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-glacier/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-glacier/1.10.21/aws-java-sdk-glacier-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-glacier" type="jar" ext="jar" status="no" details="" size="365887" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-glacier/jars/aws-java-sdk-glacier-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-glacier/1.10.21/aws-java-sdk-glacier-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-sns">
+			<revision name="1.10.21" status="release" pubdate="20150929221735" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3735" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-sns/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sns/1.10.21/aws-java-sdk-sns-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-glacier" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-sns" type="jar" ext="jar" status="no" details="" size="227856" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-sns/jars/aws-java-sdk-sns-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sns/1.10.21/aws-java-sdk-sns-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-elasticbeanstalk">
+			<revision name="1.10.21" status="release" pubdate="20150929220931" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3617" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-elasticbeanstalk/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-elasticbeanstalk/1.10.21/aws-java-sdk-elasticbeanstalk-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-elasticbeanstalk" type="jar" ext="jar" status="no" details="" size="584422" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-elasticbeanstalk/jars/aws-java-sdk-elasticbeanstalk-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-elasticbeanstalk/1.10.21/aws-java-sdk-elasticbeanstalk-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-redshift">
+			<revision name="1.10.21" status="release" pubdate="20150929221410" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3589" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-redshift/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-redshift/1.10.21/aws-java-sdk-redshift-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-redshift" type="jar" ext="jar" status="no" details="" size="713263" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-redshift/jars/aws-java-sdk-redshift-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-redshift/1.10.21/aws-java-sdk-redshift-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-rds">
+			<revision name="1.10.21" status="release" pubdate="20150929221740" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3585" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-rds/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-rds/1.10.21/aws-java-sdk-rds-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-rds" type="jar" ext="jar" status="no" details="" size="890056" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-rds/jars/aws-java-sdk-rds-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-rds/1.10.21/aws-java-sdk-rds-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-sqs">
+			<revision name="1.10.21" status="release" pubdate="20150929220114" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3578" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-sqs/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sqs/1.10.21/aws-java-sdk-sqs-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-glacier" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-sns" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-sqs" type="jar" ext="jar" status="no" details="" size="248880" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-sqs/jars/aws-java-sdk-sqs-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sqs/1.10.21/aws-java-sdk-sqs-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-sts">
+			<revision name="1.10.21" status="release" pubdate="20150929221218" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3574" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-sts/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.10.21/aws-java-sdk-sts-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-sts" type="jar" ext="jar" status="no" details="" size="95866" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-sts/jars/aws-java-sdk-sts-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.10.21/aws-java-sdk-sts-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-importexport">
+			<revision name="1.10.21" status="release" pubdate="20150929220512" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3601" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-importexport/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-importexport/1.10.21/aws-java-sdk-importexport-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-importexport" type="jar" ext="jar" status="no" details="" size="128985" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-importexport/jars/aws-java-sdk-importexport-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-importexport/1.10.21/aws-java-sdk-importexport-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-s3">
+			<revision name="1.10.21" status="release" pubdate="20150929221844" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3727" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.10.21/aws-java-sdk-s3-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-glacier" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-dynamodb" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-s3" type="jar" ext="jar" status="no" details="" size="596478" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/jars/aws-java-sdk-s3-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.10.21/aws-java-sdk-s3-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-kms">
+			<revision name="1.10.21" status="release" pubdate="20150929221627" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3574" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-kms/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.10.21/aws-java-sdk-kms-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-s3" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-kms" type="jar" ext="jar" status="no" details="" size="258584" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-kms/jars/aws-java-sdk-kms-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.10.21/aws-java-sdk-kms-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-route53">
+			<revision name="1.10.21" status="release" pubdate="20150929220122" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3585" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-route53/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-route53/1.10.21/aws-java-sdk-route53-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-route53" type="jar" ext="jar" status="no" details="" size="656978" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-route53/jars/aws-java-sdk-route53-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-route53/1.10.21/aws-java-sdk-route53-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-storagegateway">
+			<revision name="1.10.21" status="release" pubdate="20150929221334" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3609" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-storagegateway/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-storagegateway/1.10.21/aws-java-sdk-storagegateway-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-storagegateway" type="jar" ext="jar" status="no" details="" size="568226" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-storagegateway/jars/aws-java-sdk-storagegateway-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-storagegateway/1.10.21/aws-java-sdk-storagegateway-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-simpleworkflow">
+			<revision name="1.10.21" status="release" pubdate="20150929220757" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3603" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-simpleworkflow/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-simpleworkflow/1.10.21/aws-java-sdk-simpleworkflow-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-swf-libraries" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-simpleworkflow" type="jar" ext="jar" status="no" details="" size="626045" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-simpleworkflow/jars/aws-java-sdk-simpleworkflow-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-simpleworkflow/1.10.21/aws-java-sdk-simpleworkflow-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-simpledb">
+			<revision name="1.10.21" status="release" pubdate="20150929220251" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3589" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-simpledb/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-simpledb/1.10.21/aws-java-sdk-simpledb-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-simpledb" type="jar" ext="jar" status="no" details="" size="130000" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-simpledb/jars/aws-java-sdk-simpledb-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-simpledb/1.10.21/aws-java-sdk-simpledb-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-support">
+			<revision name="1.10.21" status="release" pubdate="20150929220630" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3579" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-support/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-support/1.10.21/aws-java-sdk-support-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-support" type="jar" ext="jar" status="no" details="" size="283853" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-support/jars/aws-java-sdk-support-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-support/1.10.21/aws-java-sdk-support-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-core">
+			<revision name="1.10.21" status="release" pubdate="20150929220850" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="4697" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-core/ivy-1.10.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.10.21/aws-java-sdk-core-1.10.21.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-elastictranscoder" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-ses" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-elasticbeanstalk" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-machinelearning" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-cloudwatchmetrics" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-storagegateway" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-devicefarm" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-datapipeline" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-directconnect" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-importexport" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-codedeploy" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-glacier" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-workspaces" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-efs" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-cloudtrail" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-lambda" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-iam" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-cloudformation" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-cognitoidentity" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-route53" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-codepipeline" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-sqs" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-cloudwatch" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-elasticache" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-emr" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-ec2" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-redshift" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-opsworks" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-dynamodb" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-support" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-ssm" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-s3" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-cognitosync" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-codecommit" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-kinesis" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-kms" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-sns" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-config" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-cloudsearch" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-simpledb" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-simpleworkflow" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-rds" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-cloudhsm" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-sts" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-autoscaling" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-ecs" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-elasticloadbalancing" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-cloudfront" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="default, compile, runtime, master" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-directory" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-logs" conf="compile, runtime" rev="1.10.21" rev-constraint-default="1.10.21" rev-constraint-dynamic="1.10.21" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-core" type="jar" ext="jar" status="no" details="" size="520802" time="0" location="/home/karelia/.ivy2/cache/com.amazonaws/aws-java-sdk-core/jars/aws-java-sdk-core-1.10.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.10.21/aws-java-sdk-core-1.10.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.8.1" status="release" pubdate="20150615091717" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6595" time="0" location="/home/karelia/.ivy2/cache/joda-time/joda-time/ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-core" conf="compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="621931" time="0" location="/home/karelia/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.3.6" status="release" pubdate="20141102084602" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9721" time="0" location="/home/karelia/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-core" conf="compile, runtime" rev="4.3.6" rev-constraint-default="4.3.6" rev-constraint-dynamic="4.3.6" callerrev="1.10.21"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="592008" time="0" location="/home/karelia/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.3.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.6" status="release" pubdate="20111202213826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7802" time="0" location="/home/karelia/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="4.3.6"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="232771" time="0" location="/home/karelia/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.3.3" status="release" pubdate="20141018065118" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7613" time="0" location="/home/karelia/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="4.3.3" rev-constraint-default="4.3.3" rev-constraint-dynamic="4.3.3" callerrev="4.3.6"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="282793" time="0" location="/home/karelia/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.3" status="release" pubdate="20130516150523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10350" time="0" location="/home/karelia/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk-core" conf="compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.10.21"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="4.3.6"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="62050" time="0" location="/home/karelia/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.jna" name="jna">
+			<revision name="4.2.1" status="release" pubdate="20151018092712" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/java-native-access/jna" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
+				<license name="ASL, version 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2562" time="0" location="/home/karelia/.ivy2/cache/net.java.dev.jna/jna/ivy-4.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.1/jna-4.2.1.pom"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="4.2.1" rev-constraint-default="4.2.1" rev-constraint-dynamic="4.2.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jna" type="jar" ext="jar" status="no" details="" size="1137285" time="0" location="/home/karelia/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.1/jna-4.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.databricks" name="spark-csv_2.11">
+			<revision name="1.3.0" status="release" pubdate="20151120155737" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/databricks/spark-csv" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4060" time="0" location="/home/karelia/.ivy2/cache/com.databricks/spark-csv_2.11/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/databricks/spark-csv_2.11/1.3.0/spark-csv_2.11-1.3.0.pom"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-csv_2.11" type="jar" ext="jar" status="no" details="" size="141375" time="0" location="/home/karelia/.ivy2/cache/com.databricks/spark-csv_2.11/jars/spark-csv_2.11-1.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/databricks/spark-csv_2.11/1.3.0/spark-csv_2.11-1.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.univocity" name="univocity-parsers">
+			<revision name="1.5.1" status="release" pubdate="20150408175631" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/uniVocity/univocity-parsers" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3712" time="0" location="/home/karelia/.ivy2/cache/com.univocity/univocity-parsers/ivy-1.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/univocity/univocity-parsers/1.5.1/univocity-parsers-1.5.1.pom"/>
+				<caller organisation="com.databricks" name="spark-csv_2.11" conf="default, compile, runtime, master" rev="1.5.1" rev-constraint-default="1.5.1" rev-constraint-dynamic="1.5.1" callerrev="1.3.0"/>
+				<artifacts>
+					<artifact name="univocity-parsers" type="jar" ext="jar" status="no" details="" size="148962" time="0" location="/home/karelia/.ivy2/cache/com.univocity/univocity-parsers/jars/univocity-parsers-1.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/univocity/univocity-parsers/1.5.1/univocity-parsers-1.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-csv">
+			<revision name="1.1" status="release" pubdate="20141116154846" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-csv/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10973" time="0" location="/home/karelia/.ivy2/cache/org.apache.commons/commons-csv/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.1/commons-csv-1.1.pom"/>
+				<caller organisation="com.databricks" name="spark-csv_2.11" conf="default, compile, runtime, master" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.3.0"/>
+				<artifacts>
+					<artifact name="commons-csv" type="jar" ext="jar" status="no" details="" size="36888" time="0" location="/home/karelia/.ivy2/cache/org.apache.commons/commons-csv/jars/commons-csv-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.1/commons-csv-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.5.0" status="release" pubdate="20130307191811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3139" time="0" location="/home/karelia/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="no" details="" size="533455" time="0" location="/home/karelia/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="tensorflow">
+			<revision name="master-1.2-SPARKNETCPU" status="release" pubdate="20160316020953" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="3773" time="0" location="/home/karelia/.ivy2/cache/org.bytedeco.javacpp-presets/tensorflow/ivy-master-1.2-SPARKNETCPU.xml" searched="false" origin-is-local="false" origin-location="http://www.eecs.berkeley.edu/~rkn/snapshot-2016-03-16-CPU/org/bytedeco/javacpp-presets/tensorflow/master-1.2-SPARKNETCPU/tensorflow-master-1.2-SPARKNETCPU.pom"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="master-1.2-SPARKNETCPU" rev-constraint-default="master-1.2-SPARKNETCPU" rev-constraint-dynamic="master-1.2-SPARKNETCPU" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="tensorflow" type="jar" ext="jar" status="no" details="" size="144232" time="0" location="/home/karelia/.ivy2/cache/org.bytedeco.javacpp-presets/tensorflow/jars/tensorflow-master-1.2-SPARKNETCPU.jar">
+						<origin-location is-local="false" location="http://www.eecs.berkeley.edu/~rkn/snapshot-2016-03-16-CPU/org/bytedeco/javacpp-presets/tensorflow/master-1.2-SPARKNETCPU/tensorflow-master-1.2-SPARKNETCPU.jar"/>
+					</artifact>
+					<artifact name="tensorflow" type="jar" ext="jar" extra-classifier="linux-x86_64" status="no" details="" size="8943993" time="0" location="/home/karelia/.ivy2/cache/org.bytedeco.javacpp-presets/tensorflow/jars/tensorflow-master-1.2-SPARKNETCPU-linux-x86_64.jar">
+						<origin-location is-local="false" location="http://www.eecs.berkeley.edu/~rkn/snapshot-2016-03-16-CPU/org/bytedeco/javacpp-presets/tensorflow/master-1.2-SPARKNETCPU/tensorflow-master-1.2-SPARKNETCPU-linux-x86_64.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="caffe">
+			<revision name="master-1.2-SPARKNETCPU" status="release" pubdate="20160316020917" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="3974" time="0" location="/home/karelia/.ivy2/cache/org.bytedeco.javacpp-presets/caffe/ivy-master-1.2-SPARKNETCPU.xml" searched="false" origin-is-local="false" origin-location="http://www.eecs.berkeley.edu/~rkn/snapshot-2016-03-16-CPU/org/bytedeco/javacpp-presets/caffe/master-1.2-SPARKNETCPU/caffe-master-1.2-SPARKNETCPU.pom"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="master-1.2-SPARKNETCPU" rev-constraint-default="master-1.2-SPARKNETCPU" rev-constraint-dynamic="master-1.2-SPARKNETCPU" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="caffe" type="jar" ext="jar" extra-classifier="linux-x86_64" status="no" details="" size="5150555" time="0" location="/home/karelia/.ivy2/cache/org.bytedeco.javacpp-presets/caffe/jars/caffe-master-1.2-SPARKNETCPU-linux-x86_64.jar">
+						<origin-location is-local="false" location="http://www.eecs.berkeley.edu/~rkn/snapshot-2016-03-16-CPU/org/bytedeco/javacpp-presets/caffe/master-1.2-SPARKNETCPU/caffe-master-1.2-SPARKNETCPU-linux-x86_64.jar"/>
+					</artifact>
+					<artifact name="caffe" type="jar" ext="jar" status="no" details="" size="354325" time="0" location="/home/karelia/.ivy2/cache/org.bytedeco.javacpp-presets/caffe/jars/caffe-master-1.2-SPARKNETCPU.jar">
+						<origin-location is-local="false" location="http://www.eecs.berkeley.edu/~rkn/snapshot-2016-03-16-CPU/org/bytedeco/javacpp-presets/caffe/master-1.2-SPARKNETCPU/caffe-master-1.2-SPARKNETCPU.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco.javacpp-presets" name="opencv">
+			<revision name="3.1.0-1.2-SPARKNETCPU" status="release" pubdate="20160316020938" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="3806" time="0" location="/home/karelia/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/ivy-3.1.0-1.2-SPARKNETCPU.xml" searched="false" origin-is-local="false" origin-location="http://www.eecs.berkeley.edu/~rkn/snapshot-2016-03-16-CPU/org/bytedeco/javacpp-presets/opencv/3.1.0-1.2-SPARKNETCPU/opencv-3.1.0-1.2-SPARKNETCPU.pom"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="3.1.0-1.2-SPARKNETCPU" rev-constraint-default="3.1.0-1.2-SPARKNETCPU" rev-constraint-dynamic="3.1.0-1.2-SPARKNETCPU" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="caffe" conf="default, compile, runtime, master" rev="3.1.0-1.2-SPARKNETCPU" rev-constraint-default="3.1.0-1.2-SPARKNETCPU" rev-constraint-dynamic="3.1.0-1.2-SPARKNETCPU" callerrev="master-1.2-SPARKNETCPU"/>
+				<artifacts>
+					<artifact name="opencv" type="jar" ext="jar" status="no" details="" size="659047" time="0" location="/home/karelia/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.1.0-1.2-SPARKNETCPU.jar">
+						<origin-location is-local="false" location="http://www.eecs.berkeley.edu/~rkn/snapshot-2016-03-16-CPU/org/bytedeco/javacpp-presets/opencv/3.1.0-1.2-SPARKNETCPU/opencv-3.1.0-1.2-SPARKNETCPU.jar"/>
+					</artifact>
+					<artifact name="opencv" type="jar" ext="jar" extra-classifier="linux-x86_64" status="no" details="" size="8893253" time="0" location="/home/karelia/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.1.0-1.2-SPARKNETCPU-linux-x86_64.jar">
+						<origin-location is-local="false" location="http://www.eecs.berkeley.edu/~rkn/snapshot-2016-03-16-CPU/org/bytedeco/javacpp-presets/opencv/3.1.0-1.2-SPARKNETCPU/opencv-3.1.0-1.2-SPARKNETCPU-linux-x86_64.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bytedeco" name="javacpp">
+			<revision name="1.2-SPARKNETCPU" status="release" pubdate="20160316020904" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://bytedeco.org/javacpp/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="GNU General Public License (GPL) version 2, or any later version" url="http://www.gnu.org/licenses/"/>
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4002" time="0" location="/home/karelia/.ivy2/cache/org.bytedeco/javacpp/ivy-1.2-SPARKNETCPU.xml" searched="false" origin-is-local="false" origin-location="http://www.eecs.berkeley.edu/~rkn/snapshot-2016-03-16-CPU/org/bytedeco/javacpp/1.2-SPARKNETCPU/javacpp-1.2-SPARKNETCPU.pom"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="opencv" conf="compile, runtime" rev="1.2-SPARKNETCPU" rev-constraint-default="1.2-SPARKNETCPU" rev-constraint-dynamic="1.2-SPARKNETCPU" callerrev="3.1.0-1.2-SPARKNETCPU"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="tensorflow" conf="default, compile, runtime, master" rev="1.2-SPARKNETCPU" rev-constraint-default="1.2-SPARKNETCPU" rev-constraint-dynamic="1.2-SPARKNETCPU" callerrev="master-1.2-SPARKNETCPU"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.2-SPARKNETCPU" rev-constraint-default="1.2-SPARKNETCPU" rev-constraint-dynamic="1.2-SPARKNETCPU" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="org.bytedeco.javacpp-presets" name="caffe" conf="default, compile, runtime, master" rev="1.2-SPARKNETCPU" rev-constraint-default="1.2-SPARKNETCPU" rev-constraint-dynamic="1.2-SPARKNETCPU" callerrev="master-1.2-SPARKNETCPU"/>
+				<artifacts>
+					<artifact name="javacpp" type="maven-plugin" ext="jar" status="no" details="" size="259912" time="0" location="/home/karelia/.ivy2/cache/org.bytedeco/javacpp/maven-plugins/javacpp-1.2-SPARKNETCPU.jar">
+						<origin-location is-local="false" location="http://www.eecs.berkeley.edu/~rkn/snapshot-2016-03-16-CPU/org/bytedeco/javacpp/1.2-SPARKNETCPU/javacpp-1.2-SPARKNETCPU.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.6" status="release" pubdate="20150918043528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/home/karelia/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.pom"/>
+				<caller organisation="com.databricks" name="spark-csv_2.11" conf="default, compile, runtime, master" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="1.3.0"/>
+				<caller organisation="default" name="sparknet_2.10" conf="compile, runtime-internal, runtime, optional" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7132001" time="0" location="/home/karelia/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.6.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

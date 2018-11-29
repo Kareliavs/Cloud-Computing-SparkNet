@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0m[32mPreprocessorSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mDefaultPreprocessor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should preserve scalar values[0m[0m
+[0m[[0minfo[0m] [0m[32mDefaultPreprocessor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should preserve array values[0m[0m
+[0m[[0minfo[0m] [0m[32mDefaultPreprocessor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be fast[0m[0m
+[0m[[0minfo[0m] [0m[32mImageNetPreprocessor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should subtract mean[0m[0m
+[0m[[0minfo[0m] [0m[32mImageNetPreprocessor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should subtract mean and crop image[0m[0m
+[0m[[0minfo[0m] [0m[32mImageNetPreprocessor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be fast[0m[0m

@@ -1,0 +1,42 @@
+5.325: loading train data
+5.765: loading test data
+7.026: repartition data
+31.633: numTrainData = 50000
+36.035: numTestData = 10000
+39.332: trainPartitionSizes = Array(16666, 16668, 16666)
+39.38: testPartitionSizes = Array(3334, 3334, 3332)
+42.089, i = 0: broadcasting weights
+42.103, i = 0: setting weights on workers
+42.279, i = 0: testing
+59.067, i = 0: 10,16% accuracy
+59.067, i = 0: training
+69.227, i = 0: collecting weights
+69.707, i = 0: weight = -7.6732266E-4
+69.707, i = 1: broadcasting weights
+69.714, i = 1: setting weights on workers
+69.788, i = 1: training
+79.905, i = 1: collecting weights
+79.988, i = 1: weight = -9.953015E-4
+79.988, i = 2: broadcasting weights
+79.991, i = 2: setting weights on workers
+80.036, i = 2: training
+89.801, i = 2: collecting weights
+89.857, i = 2: weight = -0.0010754202
+89.857, i = 3: broadcasting weights
+89.86, i = 3: setting weights on workers
+89.907, i = 3: training
+99.833, i = 3: collecting weights
+99.922, i = 3: weight = -0.0011033864
+99.922, i = 4: broadcasting weights
+99.927, i = 4: setting weights on workers
+99.991, i = 4: training
+109.839, i = 4: collecting weights
+109.892, i = 4: weight = -0.001112958
+109.893, i = 5: broadcasting weights
+109.898, i = 5: setting weights on workers
+109.951, i = 5: testing
+126.178, i = 5: 19,63% accuracy
+126.178, i = 5: training
+138.128, i = 5: collecting weights
+138.23, i = 5: weight = -0.0011160414
+138.23: finished training

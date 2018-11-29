@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0m[32mCaffeNetSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mNetParam[0m[0m
+[0m[[0minfo[0m] [0m[33m- should be loaded !!! IGNORED !!![0m[0m
+[0m[[0minfo[0m] [0m[32mCaffeNet[0m[0m
+[0m[[0minfo[0m] [0m[33m- should be created !!! IGNORED !!![0m[0m
+[0m[[0minfo[0m] [0m[32mCaffeNet[0m[0m
+[0m[[0minfo[0m] [0m[33m- should call forward !!! IGNORED !!![0m[0m
+[0m[[0minfo[0m] [0m[32mCaffeNet[0m[0m
+[0m[[0minfo[0m] [0m[33m- should call forwardBackward !!! IGNORED !!![0m[0m
+[0m[[0minfo[0m] [0m[32mCalling forward[0m[0m
+[0m[[0minfo[0m] [0m[33m- should leave weights unchanged !!! IGNORED !!![0m[0m
+[0m[[0minfo[0m] [0m[32mCalling forwardBackward[0m[0m
+[0m[[0minfo[0m] [0m[33m- should leave weights unchanged !!! IGNORED !!![0m[0m
+[0m[[0minfo[0m] [0m[32mSaving and loading the weights[0m[0m
+[0m[[0minfo[0m] [0m[33m- should leave the weights unchanged !!! IGNORED !!![0m[0m
+[0m[[0minfo[0m] [0m[32mPutting input into net and taking it out[0m[0m
+[0m[[0minfo[0m] [0m[33m- should not change the input !!! IGNORED !!![0m[0m

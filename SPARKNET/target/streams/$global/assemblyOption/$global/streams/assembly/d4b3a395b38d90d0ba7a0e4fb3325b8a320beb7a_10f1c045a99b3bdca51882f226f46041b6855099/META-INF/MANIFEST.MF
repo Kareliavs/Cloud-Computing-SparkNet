@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 1.5.0_16-b02 (Sun Microsystems Inc.)
+Built-By: coobird
+
+Name: Thumbnailator
+Specification-Title: Thumbnailator
+Specification-Version: 0.4.2
+Specification-Vendor: coobird.net
+Implementation-Title: Thumbnailator
+Implementation-Version: 0.4.2
+Implementation-Vendor: coobird.net
+

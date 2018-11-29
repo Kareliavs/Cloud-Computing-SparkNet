@@ -1,0 +1,535 @@
+4.585: loading train data
+5.032: loading test data
+5.829: repartition data
+47.078: numTrainData = 50000
+55.267: numTestData = 10000
+59.666: trainPartitionSizes = Array(16668, 16666, 16666)
+59.729: testPartitionSizes = Array(3334, 3332, 3334)
+69.098, i = 0: broadcasting weights
+69.106, i = 0: setting weights on workers
+69.22, i = 0: testing
+90.067, i = 0: 8,84% accuracy
+90.067, i = 0: training
+101.385, i = 0: collecting weights
+102.195, i = 0: weight = -6.4929127E-4
+102.195, i = 1: broadcasting weights
+102.201, i = 1: setting weights on workers
+102.277, i = 1: training
+114.134, i = 1: collecting weights
+114.246, i = 1: weight = -0.0013699845
+114.246, i = 2: broadcasting weights
+114.295, i = 2: setting weights on workers
+114.354, i = 2: training
+126.09, i = 2: collecting weights
+126.218, i = 2: weight = -0.0016237224
+126.218, i = 3: broadcasting weights
+126.221, i = 3: setting weights on workers
+126.265, i = 3: training
+140.19, i = 3: collecting weights
+140.273, i = 3: weight = -0.0017127587
+140.273, i = 4: broadcasting weights
+140.277, i = 4: setting weights on workers
+140.333, i = 4: training
+152.961, i = 4: collecting weights
+153.034, i = 4: weight = -0.0017437023
+153.034, i = 5: broadcasting weights
+153.037, i = 5: setting weights on workers
+153.123, i = 5: training
+164.08, i = 5: collecting weights
+164.161, i = 5: weight = -0.001754156
+164.161, i = 6: broadcasting weights
+164.164, i = 6: setting weights on workers
+164.197, i = 6: training
+174.813, i = 6: collecting weights
+174.904, i = 6: weight = -0.0017573829
+174.905, i = 7: broadcasting weights
+174.914, i = 7: setting weights on workers
+174.993, i = 7: training
+185.01, i = 7: collecting weights
+185.057, i = 7: weight = -0.0017580609
+185.057, i = 8: broadcasting weights
+185.065, i = 8: setting weights on workers
+185.095, i = 8: training
+196.107, i = 8: collecting weights
+196.18, i = 8: weight = -0.00175784
+196.18, i = 9: broadcasting weights
+196.186, i = 9: setting weights on workers
+196.224, i = 9: training
+207.137, i = 9: collecting weights
+207.189, i = 9: weight = -0.0017573023
+207.189, i = 10: broadcasting weights
+207.192, i = 10: setting weights on workers
+207.273, i = 10: testing
+221.912, i = 10: 22,81% accuracy
+221.912, i = 10: training
+233.061, i = 10: collecting weights
+233.126, i = 10: weight = -0.0017566531
+233.126, i = 11: broadcasting weights
+233.129, i = 11: setting weights on workers
+233.173, i = 11: training
+243.027, i = 11: collecting weights
+243.102, i = 11: weight = -0.0017559646
+243.102, i = 12: broadcasting weights
+243.108, i = 12: setting weights on workers
+243.16, i = 12: training
+252.607, i = 12: collecting weights
+252.717, i = 12: weight = -0.0017552626
+252.717, i = 13: broadcasting weights
+252.72, i = 13: setting weights on workers
+252.755, i = 13: training
+263.406, i = 13: collecting weights
+263.464, i = 13: weight = -0.0017545559
+263.464, i = 14: broadcasting weights
+263.467, i = 14: setting weights on workers
+263.501, i = 14: training
+273.345, i = 14: collecting weights
+273.394, i = 14: weight = -0.0017538476
+273.394, i = 15: broadcasting weights
+273.396, i = 15: setting weights on workers
+273.439, i = 15: training
+282.901, i = 15: collecting weights
+282.963, i = 15: weight = -0.001753139
+282.964, i = 16: broadcasting weights
+282.971, i = 16: setting weights on workers
+283.01, i = 16: training
+292.972, i = 16: collecting weights
+293.025, i = 16: weight = -0.0017524306
+293.025, i = 17: broadcasting weights
+293.029, i = 17: setting weights on workers
+293.077, i = 17: training
+302.817, i = 17: collecting weights
+302.874, i = 17: weight = -0.0017517228
+302.874, i = 18: broadcasting weights
+302.882, i = 18: setting weights on workers
+302.918, i = 18: training
+312.682, i = 18: collecting weights
+312.741, i = 18: weight = -0.001751015
+312.742, i = 19: broadcasting weights
+312.748, i = 19: setting weights on workers
+312.786, i = 19: training
+322.91, i = 19: collecting weights
+322.949, i = 19: weight = -0.0017503072
+322.949, i = 20: broadcasting weights
+322.951, i = 20: setting weights on workers
+323.0, i = 20: testing
+341.151, i = 20: 35,70% accuracy
+341.151, i = 20: training
+351.485, i = 20: collecting weights
+351.54, i = 20: weight = -0.0017495995
+351.54, i = 21: broadcasting weights
+351.543, i = 21: setting weights on workers
+351.588, i = 21: training
+361.974, i = 21: collecting weights
+362.012, i = 21: weight = -0.0017488928
+362.012, i = 22: broadcasting weights
+362.014, i = 22: setting weights on workers
+362.051, i = 22: training
+371.365, i = 22: collecting weights
+371.397, i = 22: weight = -0.0017481862
+371.397, i = 23: broadcasting weights
+371.4, i = 23: setting weights on workers
+371.468, i = 23: training
+380.79, i = 23: collecting weights
+380.832, i = 23: weight = -0.0017474795
+380.832, i = 24: broadcasting weights
+380.838, i = 24: setting weights on workers
+380.888, i = 24: training
+391.41, i = 24: collecting weights
+391.467, i = 24: weight = -0.0017467731
+391.467, i = 25: broadcasting weights
+391.473, i = 25: setting weights on workers
+391.545, i = 25: training
+401.185, i = 25: collecting weights
+401.24, i = 25: weight = -0.0017460677
+401.24, i = 26: broadcasting weights
+401.242, i = 26: setting weights on workers
+401.296, i = 26: training
+411.752, i = 26: collecting weights
+411.787, i = 26: weight = -0.0017453622
+411.787, i = 27: broadcasting weights
+411.804, i = 27: setting weights on workers
+411.849, i = 27: training
+422.113, i = 27: collecting weights
+422.166, i = 27: weight = -0.0017446567
+422.166, i = 28: broadcasting weights
+422.168, i = 28: setting weights on workers
+422.208, i = 28: training
+432.253, i = 28: collecting weights
+432.327, i = 28: weight = -0.0017439512
+432.327, i = 29: broadcasting weights
+432.329, i = 29: setting weights on workers
+432.367, i = 29: training
+442.837, i = 29: collecting weights
+442.905, i = 29: weight = -0.0017432469
+442.905, i = 30: broadcasting weights
+442.909, i = 30: setting weights on workers
+442.946, i = 30: testing
+459.274, i = 30: 38,53% accuracy
+459.274, i = 30: training
+470.308, i = 30: collecting weights
+470.355, i = 30: weight = -0.0017425426
+470.355, i = 31: broadcasting weights
+470.358, i = 31: setting weights on workers
+470.414, i = 31: training
+480.593, i = 31: collecting weights
+480.665, i = 31: weight = -0.0017418383
+480.665, i = 32: broadcasting weights
+480.668, i = 32: setting weights on workers
+480.698, i = 32: training
+490.783, i = 32: collecting weights
+490.823, i = 32: weight = -0.001741134
+490.823, i = 33: broadcasting weights
+490.825, i = 33: setting weights on workers
+490.882, i = 33: training
+501.831, i = 33: collecting weights
+501.872, i = 33: weight = -0.0017404308
+501.873, i = 34: broadcasting weights
+501.875, i = 34: setting weights on workers
+501.913, i = 34: training
+511.872, i = 34: collecting weights
+511.91, i = 34: weight = -0.0017397277
+511.91, i = 35: broadcasting weights
+511.912, i = 35: setting weights on workers
+512.193, i = 35: training
+521.73, i = 35: collecting weights
+521.782, i = 35: weight = -0.0017390245
+521.782, i = 36: broadcasting weights
+521.784, i = 36: setting weights on workers
+521.807, i = 36: training
+531.544, i = 36: collecting weights
+531.605, i = 36: weight = -0.0017383214
+531.605, i = 37: broadcasting weights
+531.608, i = 37: setting weights on workers
+531.654, i = 37: training
+542.008, i = 37: collecting weights
+542.057, i = 37: weight = -0.0017376192
+542.057, i = 38: broadcasting weights
+542.059, i = 38: setting weights on workers
+542.116, i = 38: training
+552.647, i = 38: collecting weights
+552.685, i = 38: weight = -0.0017369172
+552.685, i = 39: broadcasting weights
+552.687, i = 39: setting weights on workers
+552.742, i = 39: training
+582.434, i = 39: collecting weights
+582.628, i = 39: weight = -0.0017362152
+582.628, i = 40: broadcasting weights
+582.634, i = 40: setting weights on workers
+582.727, i = 40: testing
+631.75, i = 40: 39,85% accuracy
+631.75, i = 40: training
+645.539, i = 40: collecting weights
+645.583, i = 40: weight = -0.0017355132
+645.583, i = 41: broadcasting weights
+645.585, i = 41: setting weights on workers
+645.648, i = 41: training
+655.704, i = 41: collecting weights
+656.361, i = 41: weight = -0.0017348122
+656.362, i = 42: broadcasting weights
+656.364, i = 42: setting weights on workers
+656.534, i = 42: training
+671.319, i = 42: collecting weights
+671.411, i = 42: weight = -0.0017341113
+671.411, i = 43: broadcasting weights
+671.418, i = 43: setting weights on workers
+671.453, i = 43: training
+686.549, i = 43: collecting weights
+686.616, i = 43: weight = -0.0017334105
+686.616, i = 44: broadcasting weights
+686.62, i = 44: setting weights on workers
+686.664, i = 44: training
+702.98, i = 44: collecting weights
+703.058, i = 44: weight = -0.0017327097
+703.058, i = 45: broadcasting weights
+703.062, i = 45: setting weights on workers
+703.099, i = 45: training
+715.887, i = 45: collecting weights
+715.921, i = 45: weight = -0.0017320096
+715.921, i = 46: broadcasting weights
+715.924, i = 46: setting weights on workers
+715.951, i = 46: training
+729.404, i = 46: collecting weights
+729.468, i = 46: weight = -0.0017313099
+729.469, i = 47: broadcasting weights
+729.472, i = 47: setting weights on workers
+729.507, i = 47: training
+744.18, i = 47: collecting weights
+744.3, i = 47: weight = -0.0017306103
+744.301, i = 48: broadcasting weights
+744.303, i = 48: setting weights on workers
+744.339, i = 48: training
+755.871, i = 48: collecting weights
+755.916, i = 48: weight = -0.0017299106
+755.916, i = 49: broadcasting weights
+755.919, i = 49: setting weights on workers
+755.959, i = 49: training
+767.308, i = 49: collecting weights
+767.41, i = 49: weight = -0.0017292114
+767.41, i = 50: broadcasting weights
+767.412, i = 50: setting weights on workers
+767.436, i = 50: testing
+792.586, i = 50: 45,01% accuracy
+792.587, i = 50: training
+814.764, i = 50: collecting weights
+814.819, i = 50: weight = -0.0017285129
+814.819, i = 51: broadcasting weights
+814.822, i = 51: setting weights on workers
+814.853, i = 51: training
+826.79, i = 51: collecting weights
+826.851, i = 51: weight = -0.0017278144
+826.851, i = 52: broadcasting weights
+826.854, i = 52: setting weights on workers
+826.891, i = 52: training
+841.295, i = 52: collecting weights
+841.325, i = 52: weight = -0.001727116
+841.325, i = 53: broadcasting weights
+841.327, i = 53: setting weights on workers
+841.357, i = 53: training
+851.09, i = 53: collecting weights
+851.134, i = 53: weight = -0.0017264178
+851.134, i = 54: broadcasting weights
+851.138, i = 54: setting weights on workers
+851.19, i = 54: training
+861.428, i = 54: collecting weights
+861.459, i = 54: weight = -0.0017257206
+861.459, i = 55: broadcasting weights
+861.462, i = 55: setting weights on workers
+861.513, i = 55: training
+871.758, i = 55: collecting weights
+871.789, i = 55: weight = -0.0017250233
+871.789, i = 56: broadcasting weights
+871.791, i = 56: setting weights on workers
+871.817, i = 56: training
+881.354, i = 56: collecting weights
+881.395, i = 56: weight = -0.0017243259
+881.395, i = 57: broadcasting weights
+881.398, i = 57: setting weights on workers
+881.435, i = 57: training
+903.527, i = 57: collecting weights
+903.568, i = 57: weight = -0.0017236288
+903.568, i = 58: broadcasting weights
+903.572, i = 58: setting weights on workers
+903.61, i = 58: training
+917.223, i = 58: collecting weights
+917.269, i = 58: weight = -0.0017229327
+917.269, i = 59: broadcasting weights
+917.271, i = 59: setting weights on workers
+917.302, i = 59: training
+929.547, i = 59: collecting weights
+929.599, i = 59: weight = -0.0017222365
+929.599, i = 60: broadcasting weights
+929.604, i = 60: setting weights on workers
+929.651, i = 60: testing
+947.539, i = 60: 47,00% accuracy
+947.539, i = 60: training
+959.033, i = 60: collecting weights
+959.133, i = 60: weight = -0.0017215403
+959.134, i = 61: broadcasting weights
+959.139, i = 61: setting weights on workers
+959.165, i = 61: training
+974.502, i = 61: collecting weights
+974.536, i = 61: weight = -0.0017208443
+974.536, i = 62: broadcasting weights
+974.539, i = 62: setting weights on workers
+974.586, i = 62: training
+985.475, i = 62: collecting weights
+985.557, i = 62: weight = -0.0017201494
+985.557, i = 63: broadcasting weights
+985.563, i = 63: setting weights on workers
+985.638, i = 63: training
+995.731, i = 63: collecting weights
+995.768, i = 63: weight = -0.0017194544
+995.768, i = 64: broadcasting weights
+995.774, i = 64: setting weights on workers
+995.816, i = 64: training
+1009.855, i = 64: collecting weights
+1009.957, i = 64: weight = -0.0017187594
+1009.957, i = 65: broadcasting weights
+1009.966, i = 65: setting weights on workers
+1010.019, i = 65: training
+1020.714, i = 65: collecting weights
+1020.773, i = 65: weight = -0.0017180644
+1020.773, i = 66: broadcasting weights
+1020.776, i = 66: setting weights on workers
+1020.828, i = 66: training
+1031.499, i = 66: collecting weights
+1031.527, i = 66: weight = -0.0017173705
+1031.527, i = 67: broadcasting weights
+1031.529, i = 67: setting weights on workers
+1031.568, i = 67: training
+1041.857, i = 67: collecting weights
+1041.886, i = 67: weight = -0.0017166766
+1041.887, i = 68: broadcasting weights
+1041.891, i = 68: setting weights on workers
+1041.94, i = 68: training
+1052.541, i = 68: collecting weights
+1052.597, i = 68: weight = -0.0017159828
+1052.597, i = 69: broadcasting weights
+1052.61, i = 69: setting weights on workers
+1052.693, i = 69: training
+1063.409, i = 69: collecting weights
+1063.508, i = 69: weight = -0.001715289
+1063.508, i = 70: broadcasting weights
+1063.51, i = 70: setting weights on workers
+1063.525, i = 70: testing
+1078.731, i = 70: 47,84% accuracy
+1078.731, i = 70: training
+1088.92, i = 70: collecting weights
+1088.956, i = 70: weight = -0.0017145961
+1088.956, i = 71: broadcasting weights
+1088.966, i = 71: setting weights on workers
+1089.012, i = 71: training
+1099.281, i = 71: collecting weights
+1099.311, i = 71: weight = -0.0017139033
+1099.311, i = 72: broadcasting weights
+1099.315, i = 72: setting weights on workers
+1099.409, i = 72: training
+1109.807, i = 72: collecting weights
+1109.871, i = 72: weight = -0.0017132106
+1109.871, i = 73: broadcasting weights
+1109.874, i = 73: setting weights on workers
+1109.918, i = 73: training
+1119.956, i = 73: collecting weights
+1120.003, i = 73: weight = -0.0017125179
+1120.003, i = 74: broadcasting weights
+1120.006, i = 74: setting weights on workers
+1120.071, i = 74: training
+1130.287, i = 74: collecting weights
+1130.422, i = 74: weight = -0.001711826
+1130.422, i = 75: broadcasting weights
+1130.426, i = 75: setting weights on workers
+1130.459, i = 75: training
+1140.991, i = 75: collecting weights
+1141.033, i = 75: weight = -0.0017111344
+1141.033, i = 76: broadcasting weights
+1141.036, i = 76: setting weights on workers
+1141.087, i = 76: training
+1151.517, i = 76: collecting weights
+1151.573, i = 76: weight = -0.001710443
+1151.573, i = 77: broadcasting weights
+1151.575, i = 77: setting weights on workers
+1151.613, i = 77: training
+1161.921, i = 77: collecting weights
+1161.959, i = 77: weight = -0.0017097514
+1161.959, i = 78: broadcasting weights
+1161.969, i = 78: setting weights on workers
+1162.055, i = 78: training
+1172.361, i = 78: collecting weights
+1172.476, i = 78: weight = -0.0017090604
+1172.476, i = 79: broadcasting weights
+1172.478, i = 79: setting weights on workers
+1172.507, i = 79: training
+1182.928, i = 79: collecting weights
+1182.982, i = 79: weight = -0.00170837
+1182.983, i = 80: broadcasting weights
+1182.985, i = 80: setting weights on workers
+1183.041, i = 80: testing
+1198.122, i = 80: 49,34% accuracy
+1198.122, i = 80: training
+1208.911, i = 80: collecting weights
+1208.972, i = 80: weight = -0.0017076797
+1208.973, i = 81: broadcasting weights
+1208.976, i = 81: setting weights on workers
+1209.058, i = 81: training
+1221.51, i = 81: collecting weights
+1221.602, i = 81: weight = -0.0017069894
+1221.603, i = 82: broadcasting weights
+1221.606, i = 82: setting weights on workers
+1221.695, i = 82: training
+1238.618, i = 82: collecting weights
+1238.657, i = 82: weight = -0.0017062994
+1238.657, i = 83: broadcasting weights
+1238.661, i = 83: setting weights on workers
+1238.761, i = 83: training
+1254.175, i = 83: collecting weights
+1254.221, i = 83: weight = -0.0017056102
+1254.221, i = 84: broadcasting weights
+1254.223, i = 84: setting weights on workers
+1254.27, i = 84: training
+1265.508, i = 84: collecting weights
+1265.559, i = 84: weight = -0.001704921
+1265.559, i = 85: broadcasting weights
+1265.561, i = 85: setting weights on workers
+1265.621, i = 85: training
+1276.654, i = 85: collecting weights
+1276.699, i = 85: weight = -0.0017042318
+1276.699, i = 86: broadcasting weights
+1276.703, i = 86: setting weights on workers
+1276.76, i = 86: training
+1286.993, i = 86: collecting weights
+1287.041, i = 86: weight = -0.0017035428
+1287.041, i = 87: broadcasting weights
+1287.044, i = 87: setting weights on workers
+1287.097, i = 87: training
+1298.539, i = 87: collecting weights
+1298.584, i = 87: weight = -0.0017028548
+1298.584, i = 88: broadcasting weights
+1298.587, i = 88: setting weights on workers
+1298.652, i = 88: training
+1309.371, i = 88: collecting weights
+1309.414, i = 88: weight = -0.0017021667
+1309.414, i = 89: broadcasting weights
+1309.416, i = 89: setting weights on workers
+1309.456, i = 89: training
+1319.505, i = 89: collecting weights
+1319.593, i = 89: weight = -0.0017014787
+1319.593, i = 90: broadcasting weights
+1319.595, i = 90: setting weights on workers
+1319.628, i = 90: testing
+1337.505, i = 90: 50,78% accuracy
+1337.505, i = 90: training
+1351.885, i = 90: collecting weights
+1351.918, i = 90: weight = -0.0017007907
+1351.918, i = 91: broadcasting weights
+1351.921, i = 91: setting weights on workers
+1351.984, i = 91: training
+1364.048, i = 91: collecting weights
+1364.075, i = 91: weight = -0.0017001037
+1364.075, i = 92: broadcasting weights
+1364.079, i = 92: setting weights on workers
+1364.145, i = 92: training
+1377.577, i = 92: collecting weights
+1377.615, i = 92: weight = -0.0016994169
+1377.615, i = 93: broadcasting weights
+1377.624, i = 93: setting weights on workers
+1377.66, i = 93: training
+1389.099, i = 93: collecting weights
+1389.161, i = 93: weight = -0.00169873
+1389.161, i = 94: broadcasting weights
+1389.173, i = 94: setting weights on workers
+1389.207, i = 94: training
+1400.601, i = 94: collecting weights
+1400.638, i = 94: weight = -0.0016980432
+1400.638, i = 95: broadcasting weights
+1400.641, i = 95: setting weights on workers
+1400.665, i = 95: training
+1413.534, i = 95: collecting weights
+1413.619, i = 95: weight = -0.0016973572
+1413.619, i = 96: broadcasting weights
+1413.623, i = 96: setting weights on workers
+1413.659, i = 96: training
+1424.754, i = 96: collecting weights
+1424.797, i = 96: weight = -0.0016966715
+1424.797, i = 97: broadcasting weights
+1424.801, i = 97: setting weights on workers
+1424.842, i = 97: training
+1438.212, i = 97: collecting weights
+1438.244, i = 97: weight = -0.0016959858
+1438.244, i = 98: broadcasting weights
+1438.249, i = 98: setting weights on workers
+1438.268, i = 98: training
+1452.621, i = 98: collecting weights
+1452.869, i = 98: weight = -0.0016953001
+1452.869, i = 99: broadcasting weights
+1452.874, i = 99: setting weights on workers
+1452.913, i = 99: training
+1462.866, i = 99: collecting weights
+1462.902, i = 99: weight = -0.001694615
+1462.902, i = 100: broadcasting weights
+1462.907, i = 100: setting weights on workers
+1462.937, i = 100: testing
+1477.942, i = 100: 50,68% accuracy
+1477.942, i = 100: training
+1487.802, i = 100: collecting weights
+1487.855, i = 100: weight = -0.0016939305
+1487.855: finished training

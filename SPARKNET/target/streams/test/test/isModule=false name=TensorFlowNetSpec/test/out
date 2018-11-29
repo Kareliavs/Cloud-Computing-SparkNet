@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0m[32mTensorFlowNetSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mGraphDef[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be loaded[0m[0m
+[0m[[0minfo[0m] [0m[32mTensorFlowNet[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be created[0m[0m
+[0m[[0minfo[0m] [0m[32mConverting NDArray to Tensor and back[0m[0m
+[0m[[0minfo[0m] [0m[32m- should preserve its value[0m[0m
+[0m[[0minfo[0m] [0m[32mWriting a batch of arrays to Tensor and back[0m[0m
+[0m[[0minfo[0m] [0m[32m- should preserve their values[0m[0m
+[0m[[0minfo[0m] [0m[32mTensorFlowNet[0m[0m
+[0m[[0minfo[0m] [0m[32m- should call forward[0m[0m
+[0m[[0minfo[0m] [0m[32mAccuracies[0m[0m
+[0m[[0minfo[0m] [0m[32m- should sum to 1[0m[0m
+[0m[[0minfo[0m] [0m[32mSetting and getting weights[0m[0m
+[0m[[0minfo[0m] [0m[32m- should preserve their values[0m[0m
+[0m[[0minfo[0m] [0m[32mCalling forward[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not change weight values[0m[0m
+[0m[[0minfo[0m] [0m[32mTensorFlowNet[0m[0m
+[0m[[0minfo[0m] [0m[32m- should call step[0m[0m

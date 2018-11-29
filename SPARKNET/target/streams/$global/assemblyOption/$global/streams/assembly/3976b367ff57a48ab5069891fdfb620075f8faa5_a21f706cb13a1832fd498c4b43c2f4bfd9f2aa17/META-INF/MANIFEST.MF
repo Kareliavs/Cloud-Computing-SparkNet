@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: JavaCPP Presets for TensorFlow
+Implementation-Version: master-1.2-SPARKNETCPU
+Archiver-Version: Plexus Archiver
+Built-By: ubuntu
+Specification-Vendor: Bytedeco
+Specification-Title: JavaCPP Presets for TensorFlow
+Class-Path: . javacpp.jar tensorflow-linux-arm.jar tensorflow-linux-x8
+ 6.jar tensorflow-linux-x86_64.jar tensorflow-macosx-x86.jar tensorflo
+ w-macosx-x86_64.jar tensorflow-windows-x86.jar tensorflow-windows-x86
+ _64.jar javacpp-1.2-SPARKNETCPU.jar
+Implementation-Vendor: Bytedeco
+Name: org/bytedeco/javacpp/presets/
+Created-By: Apache Maven 3.0.5
+Build-Jdk: 1.8.0_72-internal
+Specification-Version: master-1.2-SPARKNETCPU
+

@@ -1,0 +1,8 @@
+#Successful Tests
+#Thu Nov 29 12:05:04 PET 2018
+CaffeWeightCollectionSpec=1543511090776
+NDArraySpec=1543511095207
+TensorFlowNetSpec=1543511095167
+PreprocessorSpec=1543511104202
+CaffeNetSpec=1543511091871
+LoadAdultDataSpec=1543511095172
